@@ -3,7 +3,15 @@
         
     </head>
     <body>
-        <h1>This is home!</h1>
+        <div class="centre jumbotron">
+            <h1>Welcome!</h1>
+            </br>
+            <p>
+                Please use the link below to sign up!</br>
+                </br>
+            <%= link_to 'Sign up now!', "#", class: "btn btn-primary btn-lg" %>
+            </p>
+        </div>
         <%= link_to 'Home', root_path %>
         <%= link_to 'About', about_path %>
         <%= link_to 'Articles', articles_path %>
